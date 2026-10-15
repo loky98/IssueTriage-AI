@@ -1,0 +1,40 @@
+{"number": 61610, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 16.7}
+{"number": 61898, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 15.6}
+{"number": 64713, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 23.3}
+{"number": 62611, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 19.1}
+{"number": 63484, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 20.0}
+{"number": 66310, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 18.5}
+{"number": 63903, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 25.3}
+{"number": 61516, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 18.5}
+{"number": 62013, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 17.5}
+{"number": 63419, "label": "Bug", "pred": "Bug", "needs_human": true, "seconds": 20.7}
+{"number": 57432, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 16.2}
+{"number": 61494, "label": "Docs", "pred": "Docs", "needs_human": false, "seconds": 16.1}
+{"number": 55605, "label": "Docs", "pred": "Usage Question", "needs_human": false, "seconds": 19.2}
+{"number": 60542, "label": "Docs", "pred": "Docs", "needs_human": false, "seconds": 17.9}
+{"number": 58918, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 16.1}
+{"number": 62516, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 14.6}
+{"number": 56353, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 19.4}
+{"number": 59532, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 9.6}
+{"number": 60410, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 18.7}
+{"number": 63991, "label": "Docs", "pred": "Docs", "needs_human": true, "seconds": 20.3}
+{"number": 55645, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 14.3}
+{"number": 56748, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 22.0}
+{"number": 60428, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 19.2}
+{"number": 62184, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 20.2}
+{"number": 61169, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 20.3}
+{"number": 55289, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 24.1}
+{"number": 59585, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 22.3}
+{"number": 58366, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 23.1}
+{"number": 66807, "label": "Enhancement", "pred": "Enhancement", "needs_human": false, "seconds": 21.5}
+{"number": 55121, "label": "Enhancement", "pred": "Enhancement", "needs_human": true, "seconds": 21.9}
+{"number": 60017, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 23.7}
+{"number": 56630, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 11.3}
+{"number": 43493, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 17.4}
+{"number": 42573, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 20.1}
+{"number": 50650, "label": "Usage Question", "pred": "Bug", "needs_human": true, "seconds": 16.2}
+{"number": 56602, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 10.5}
+{"number": 52622, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 24.8}
+{"number": 46757, "label": "Usage Question", "pred": "Bug", "needs_human": true, "seconds": 28.8}
+{"number": 44320, "label": "Usage Question", "pred": "Bug", "needs_human": true, "seconds": 24.7}
+{"number": 45452, "label": "Usage Question", "pred": "Usage Question", "needs_human": false, "seconds": 16.8}

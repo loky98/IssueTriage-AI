@@ -1,0 +1,5 @@
+line-length = 120
+extend-exclude = ["Proyecto__1", "data"]
+
+[lint]
+select = ["E", "F", "I"]   # errores de estilo, errores lógicos (p. ej. imports sin usar) y orden de imports

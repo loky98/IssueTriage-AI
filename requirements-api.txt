@@ -1,0 +1,17 @@
+requests
+python-dotenv
+pandas
+scikit-learn
+sentence-transformers
+psycopg[binary]
+pgvector
+redis
+fastapi
+uvicorn[standard]
+langchain
+langgraph
+langchain-ollama
+langchain-anthropic
+langchain-mcp-adapters
+mcp[cli]<2
+langfuse

@@ -1,0 +1,36 @@
+# Secretos
+.env
+
+# Entorno virtual
+.venv/
+
+# Datos descargados o generados (se regeneran con los scripts de ingest/)
+data/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# VS Code: ignorar todo menos launch.json
+.vscode/*
+!.vscode/launch.json
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Archivos de documentación
+propuestas-proyectos-portafolio.md
+# Entorno virtual local (nombre usado en este proyecto)
+Proyecto__1/
+
+# Archivos de prueba y notas personales
+test_sparse.*
+ComandosPruebas.txt
+pruebas.json
+
+# Configuración local de Claude Code
+.claude/settings.local.json

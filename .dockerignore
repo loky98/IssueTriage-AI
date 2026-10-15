@@ -1,0 +1,8 @@
+.env
+.venv/
+Proyecto__1/
+data/
+evals/results/
+**/__pycache__/
+.git/
+.vscode/

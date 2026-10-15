@@ -1,0 +1,9 @@
+{"number": 61610, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 549.6}
+{"number": 61898, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 379.3}
+{"number": 64713, "label": "Bug", "pred": "ERROR", "needs_human": true, "seconds": 730.7}
+{"number": 62611, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 925.3}
+{"number": 63484, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 689.4}
+{"number": 66310, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 533.7}
+{"number": 63903, "label": "Bug", "pred": "Usage Question", "needs_human": false, "seconds": 521.1}
+{"number": 61516, "label": "Bug", "pred": "Usage Question", "needs_human": false, "seconds": 464.8}
+{"number": 62013, "label": "Bug", "pred": "Bug", "needs_human": false, "seconds": 1154.3}
