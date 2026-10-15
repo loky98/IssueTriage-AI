@@ -38,9 +38,6 @@ def get_reranker():
 # reranker = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=256)
 QUERY_PREFIX = "Represent this sentence for searching relevant passages: "  # recomendado por BGE para consultas
 
-conn = psycopg.connect(os.getenv("DATABASE_URL"), autocommit=True)
-register_vector(conn)
-
 def retrieve(query, k=5, source=None, use_prefix=True):
     """Devuelve los k chunks más similares. source: None, 'docs' o 'issue'."""
     vec = get_model().encode((QUERY_PREFIX if use_prefix else "") + query, normalize_embeddings=True)
