@@ -36,8 +36,8 @@ services:
     build: { context: ., target: mcp }
     image: issuetriage-mcp
     container_name: issuetriage-mcp
-    env_file: .env
-    environment:
+    environment:  # solo lo imprescindible: sin .env, el código de run_snippet no tiene secretos que leer
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
       MCP_TRANSPORT: streamable-http
     # aislamiento para run_snippet: sistema de archivos de solo lectura, sin privilegios, con límites
     read_only: true

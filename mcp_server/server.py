@@ -31,18 +31,28 @@ def get_issue(number: int) -> dict:
             "body": (i["body"] or "")[:3000], "url": i["html_url"]}
 
 
+# variables que Python necesita para arrancar; en Windows sin SYSTEMROOT fallan os.urandom y numpy
+_SAFE_ENV_VARS = ("SYSTEMROOT",) if sys.platform == "win32" else ()
+
+
+def _run_isolated(code: str) -> subprocess.CompletedProcess:
+    """Ejecuta el código en un subproceso con entorno mínimo, para que no vea los secretos del servidor."""
+    env = {k: os.environ[k] for k in _SAFE_ENV_VARS if k in os.environ}
+    return subprocess.run(
+        [sys.executable, "-I", "-c", code], stdin=subprocess.DEVNULL, capture_output=True, text=True,
+        timeout=30, env=env)
+
+
 @mcp.tool()
 def run_snippet(code: str) -> dict:
+    """Ejecuta un fragmento de código Python/pandas (máx. 30 s) y devuelve su salida o error."""
     if BLOCKED.search(code):
         return {"error": "blocked: code uses system/network modules"}
-    """Ejecuta un fragmento de código Python/pandas (máx. 30 s) y devuelve su salida o error."""
     try:
-        p = subprocess.run(
-            [sys.executable, "-I", "-c", code],stdin=subprocess.DEVNULL,capture_output=True, text=True, timeout=30)
+        p = _run_isolated(code)
         return {"stdout": p.stdout[-2000:], "stderr": p.stderr[-2000:], "returncode": p.returncode}
     except subprocess.TimeoutExpired:
         return {"error": "timeout (30 s)"}
-
 
 if __name__ == "__main__":
     mcp.run(transport=os.getenv("MCP_TRANSPORT", "stdio"))  # en Docker: streamable-http
